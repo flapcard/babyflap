@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "BabyFlap | Memecoin on Binance Smart Chain Launch on flap.sh" },
+      { name: "description", content: "FlapMeme is a viral memecoin landing page featuring a cute butterfly mascot and modern crypto aesthetics." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "BabyFlap | Memecoin on Binance Smart Chain Launch on flap.sh" },
+      { property: "og:description", content: "FlapMeme is a viral memecoin landing page featuring a cute butterfly mascot and modern crypto aesthetics." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "BabyFlap | Memecoin on Binance Smart Chain Launch on flap.sh" },
+      { name: "twitter:description", content: "FlapMeme is a viral memecoin landing page featuring a cute butterfly mascot and modern crypto aesthetics." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/2xUSDdQzvpdMIuipndPgq1JpSS63/social-images/social-1778868951027-logo.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/2xUSDdQzvpdMIuipndPgq1JpSS63/social-images/social-1778868951027-logo.webp" },
     ],
     links: [
       {
