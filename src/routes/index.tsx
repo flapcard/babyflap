@@ -4,7 +4,7 @@ import {
   ArrowRight, Lock, Flame, Coins, Rocket, Twitter, Send, ChevronDown,
   Sparkles, ShieldCheck, Zap, Copy, Check,
 } from "lucide-react";
-import mascot from "@/assets/flapmeme-mascot.png";
+import mascot from "@/assets/babyflap-mascot.png";
 import { Button } from "@/components/ui/button";
 import { FloatingButterflies } from "@/components/FloatingButterflies";
 import { LangContext, useLang, useT, type Lang } from "@/lib/i18n";
@@ -12,9 +12,9 @@ import { LangContext, useLang, useT, type Lang } from "@/lib/i18n";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "FlapMeme — 拍动翅膀,飞向月球 🦋" },
-      { name: "description", content: "FlapMeme — 下一代蝴蝶 memecoin。在 flap.sh 公平启动,100% 社区驱动。" },
-      { property: "og:title", content: "FlapMeme 🦋 The Butterfly Memecoin" },
+      { title: "BabyFlap — 拍动翅膀,飞向月球 🦋" },
+      { name: "description", content: "BabyFlap — 下一代蝴蝶 memecoin。在 flap.sh 公平启动,100% 社区驱动。" },
+      { property: "og:title", content: "BabyFlap 🦋 The Butterfly Memecoin" },
       { property: "og:description", content: "Flap your wings. Fly to the moon. Fair launch on flap.sh." },
     ],
   }),
@@ -96,8 +96,8 @@ function Nav() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4">
         <a href="#top" className="flex items-center gap-2">
-          <img src={mascot} alt="FlapMeme" className="h-10 w-10 drop-shadow-[0_0_15px_rgba(255,220,50,0.6)]" />
-          <span className="text-xl font-extrabold tracking-tight text-gradient-flap">FlapMeme</span>
+          <img src={mascot} alt="BabyFlap" className="h-10 w-10 drop-shadow-[0_0_15px_rgba(255,220,50,0.6)]" />
+          <span className="text-xl font-extrabold tracking-tight text-gradient-flap">BabyFlap</span>
         </a>
         <nav className="hidden items-center gap-1 glass rounded-full px-2 py-1.5 md:flex">
           {links.map((l) => (
@@ -147,7 +147,7 @@ function Hero() {
           <div className="absolute inset-0 mx-auto h-72 w-72 rounded-full bg-gradient-flap opacity-30 blur-3xl" />
           <img
             src={mascot}
-            alt="FlapMeme mascot"
+            alt="BabyFlap mascot"
             className="relative h-64 w-64 animate-flap drop-shadow-[0_20px_60px_rgba(255,220,50,0.45)] md:h-80 md:w-80"
             width={1024}
             height={1024}

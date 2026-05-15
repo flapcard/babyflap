@@ -11,13 +11,13 @@ export const translations = {
       title1: "拍动翅膀",
       title2: "起飞月球",
       subtitle:
-        "FlapMeme 是最可爱、最病毒、最具社区力量的蝴蝶 Memecoin。一次拍翅，掀起加密浪潮。",
+        "BabyFlap 是最可爱、最病毒、最具社区力量的蝴蝶 Memecoin。一次拍翅，掀起加密浪潮。",
       stat1: "持有者", stat2: "总供应", stat3: "上线平台",
     },
     about: {
-      tag: "关于 FlapMeme",
+      tag: "关于 BabyFlap",
       title: "一只蝴蝶,引发链上风暴",
-      body: "据说亚马逊的一只蝴蝶轻轻拍动翅膀,就能在世界另一端掀起飓风。FlapMeme 把这个浪漫的混沌理论搬上区块链——每一次社区互动、每一次 meme 传播,都是一次拍翅,推动我们飞向月球。",
+      body: "据说亚马逊的一只蝴蝶轻轻拍动翅膀,就能在世界另一端掀起飓风。BabyFlap 把这个浪漫的混沌理论搬上区块链——每一次社区互动、每一次 meme 传播,都是一次拍翅,推动我们飞向月球。",
       pills: ["100% 社区驱动", "开发代币锁定", "公平启动", "持有者分红"],
     },
     token: {
@@ -38,7 +38,7 @@ export const translations = {
       phases: [
         { phase: "第一阶段", title: "破茧成蝶", items: ["在 flap.sh 启动", "建立核心社区", "病毒式 Meme 营销"] },
         { phase: "第二阶段", title: "振翅高飞", items: ["CEX 上市与合作", "持有者奖励上线", "回购销毁系统激活"] },
-        { phase: "第三阶段", title: "蝴蝶效应", items: ["全球 Meme 扩张", "蝴蝶 NFT 系列", "FlapMeme 生态发布"] },
+        { phase: "第三阶段", title: "蝴蝶效应", items: ["全球 Meme 扩张", "蝴蝶 NFT 系列", "BabyFlap 生态发布"] },
       ],
     },
     community: {
@@ -50,13 +50,13 @@ export const translations = {
     faq: {
       tag: "常见问题", title: "蝴蝶疑问解答",
       items: [
-        { q: "FlapMeme 是什么?", a: "FlapMeme 是一只可爱蝴蝶主题的 memecoin,由社区驱动,在 flap.sh 公平启动。没有预售,没有团队分配,只有翅膀和梦想。" },
+        { q: "BabyFlap 是什么?", a: "BabyFlap 是一只可爱蝴蝶主题的 memecoin,由社区驱动,在 flap.sh 公平启动。没有预售,没有团队分配,只有翅膀和梦想。" },
         { q: "如何购买 $FLAP?", a: "前往 flap.sh,连接你的钱包,搜索 FLAP 合约地址,然后用一只手指轻轻一拍——你就成为了一只蝴蝶。" },
         { q: "代币是否安全?", a: "是。开发代币 100% 锁定,流动性已锁,合约已审计。蝴蝶不会 rug。" },
         { q: "为什么是蝴蝶?", a: "因为蝴蝶效应。一次小小的拍翅,可以引发整个市场的飓风。也因为它们真的很可爱。" },
       ],
     },
-    footer: "© 2026 FlapMeme. 不构成金融建议,仅供娱乐和拍翅。",
+    footer: "© 2026 BabyFlap. 不构成金融建议,仅供娱乐和拍翅。",
     ticker: ["拍翅 FLAP", "上月球 🚀", "蝴蝶军团 🦋", "FAIR LAUNCH", "100% LOCKED", "BUYBACK & BURN"],
   },
   en: {
@@ -67,13 +67,13 @@ export const translations = {
       title1: "Flap Your Wings",
       title2: "Fly To The Moon",
       subtitle:
-        "FlapMeme is the cutest, most viral, most community-powered butterfly memecoin. One flap, and we move the entire market.",
+        "BabyFlap is the cutest, most viral, most community-powered butterfly memecoin. One flap, and we move the entire market.",
       stat1: "Holders", stat2: "Total Supply", stat3: "Launch Platform",
     },
     about: {
-      tag: "About FlapMeme",
+      tag: "About BabyFlap",
       title: "One Butterfly. One Crypto Hurricane.",
-      body: "They say a butterfly flapping its wings in the Amazon can cause a hurricane on the other side of the world. FlapMeme brings that beautiful chaos on-chain — every meme, every share, every flap pushes us closer to the moon.",
+      body: "They say a butterfly flapping its wings in the Amazon can cause a hurricane on the other side of the world. BabyFlap brings that beautiful chaos on-chain — every meme, every share, every flap pushes us closer to the moon.",
       pills: ["100% Community", "Dev Tokens Locked", "Fair Launch", "Holder Rewards"],
     },
     token: {
@@ -94,7 +94,7 @@ export const translations = {
       phases: [
         { phase: "Phase 1", title: "Cocoon Cracks Open", items: ["Launch on flap.sh", "Core community building", "Viral meme campaign"] },
         { phase: "Phase 2", title: "Wings Take Flight", items: ["CEX listings & partnerships", "Holder rewards live", "Buyback & burn activated"] },
-        { phase: "Phase 3", title: "The Butterfly Effect", items: ["Global meme expansion", "Butterfly NFT collection", "FlapMeme ecosystem"] },
+        { phase: "Phase 3", title: "The Butterfly Effect", items: ["Global meme expansion", "Butterfly NFT collection", "BabyFlap ecosystem"] },
       ],
     },
     community: {
@@ -106,13 +106,13 @@ export const translations = {
     faq: {
       tag: "FAQ", title: "Butterfly Questions, Answered",
       items: [
-        { q: "What is FlapMeme?", a: "FlapMeme is a community-powered butterfly memecoin fair-launched on flap.sh. No presale, no team alloc — just wings and dreams." },
+        { q: "What is BabyFlap?", a: "BabyFlap is a community-powered butterfly memecoin fair-launched on flap.sh. No presale, no team alloc — just wings and dreams." },
         { q: "How do I buy $FLAP?", a: "Go to flap.sh, connect your wallet, paste the FLAP contract, and gently flap a finger. You're now a butterfly." },
         { q: "Is the token safe?", a: "Yes. Dev tokens 100% locked, LP locked, contract audited. Butterflies don't rug." },
         { q: "Why a butterfly?", a: "Because of the butterfly effect. One tiny flap can move the entire market. Also, they're really cute." },
       ],
     },
-    footer: "© 2026 FlapMeme. Not financial advice. Just vibes and wings.",
+    footer: "© 2026 BabyFlap. Not financial advice. Just vibes and wings.",
     ticker: ["FLAP FLAP", "TO THE MOON 🚀", "BUTTERFLY ARMY 🦋", "FAIR LAUNCH", "100% LOCKED", "BUYBACK & BURN"],
   },
 } as const;
