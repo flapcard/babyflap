@@ -4,7 +4,7 @@ import {
   ArrowRight, Lock, Flame, Coins, Rocket, Twitter, Send, ChevronDown,
   Sparkles, ShieldCheck, Zap, Copy, Check,
 } from "lucide-react";
-import mascot from "@/assets/babyflap-mascot.png";
+import mascot from "@/assets/flapmeme-mascot.png";
 import { Button } from "@/components/ui/button";
 import { FloatingButterflies } from "@/components/FloatingButterflies";
 import { LangContext, useLang, useT, type Lang } from "@/lib/i18n";
