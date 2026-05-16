@@ -318,7 +318,7 @@ function TokenInfo() {
           <InfoCard icon={<Sparkles className="h-5 w-5" />} label={t.token.name} value="$BABYFLAP" />
           <InfoCard icon={<Coins className="h-5 w-5" />} label={t.token.supply} value="1,000,000,000" highlight />
           <InfoCard icon={<Rocket className="h-5 w-5" />} label={t.token.platform} value="flap.sh" />
-          <InfoCard icon={<ShieldCheck className="h-5 w-5" />} label={t.token.chain} value="Binance S" />
+          <InfoCard icon={<ShieldCheck className="h-5 w-5" />} label={t.token.chain} value="Binance Smart Chain" />
         </div>
 
         <div className="mx-auto mt-8 flex max-w-2xl items-center gap-3 glass rounded-2xl p-3 pl-5">
