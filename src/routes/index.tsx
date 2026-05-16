@@ -497,7 +497,7 @@ function Community() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a
-                href="https://twitter.com"
+                href="https://x.com/baby_flap"
                 target="_blank"
                 rel="noreferrer"
                 className="group glass flex items-center gap-3 rounded-2xl px-6 py-4 transition-all hover:glow-sun"
@@ -511,7 +511,7 @@ function Community() {
                 </span>
               </a>
               <a
-                href="https://t.me"
+                href="https://t.me/baby_flap"
                 target="_blank"
                 rel="noreferrer"
                 className="group glass flex items-center gap-3 rounded-2xl px-6 py-4 transition-all hover:glow-sky"
