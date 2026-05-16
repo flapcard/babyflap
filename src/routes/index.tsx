@@ -117,12 +117,7 @@ function Nav() {
         </nav>
         <div className="flex items-center gap-2">
           <LangToggle />
-          <a
-            href="https://flap.sh/bnb/0xa10106732468ce401f80a91f0daa4cff4d8b7777"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden md:inline-flex"
-          >
+          <a href="https://flap.sh/bnb/7777" target="_blank" rel="noreferrer" className="hidden md:inline-flex">
             <Button className="rounded-full bg-gradient-flap font-bold text-primary-foreground hover:opacity-90">
               {t.cta.buy} <ArrowRight className="ml-1 h-4 w-4" />
             </Button>
