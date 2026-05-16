@@ -150,7 +150,7 @@ export const translations = {
           a: "BabyFlap is a community-powered butterfly memecoin fair-launched on flap.sh. No presale, no team alloc — just wings and dreams.",
         },
         {
-          q: "How do I buy $FLAP?",
+          q: "How do I buy $BABYFLAP?",
           a: "Go to flap.sh, connect your wallet, paste the FLAP contract, and gently flap a finger. You're now a butterfly.",
         },
         {
