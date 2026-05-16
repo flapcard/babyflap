@@ -315,7 +315,7 @@ function TokenInfo() {
         <h2 className="mx-auto mt-3 max-w-2xl text-4xl font-extrabold md:text-5xl">{t.token.title}</h2>
 
         <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
-          <InfoCard icon={<Sparkles className="h-5 w-5" />} label={t.token.name} value="$FLAP" />
+          <InfoCard icon={<Sparkles className="h-5 w-5" />} label={t.token.name} value="$BABYFLAP" />
           <InfoCard icon={<Coins className="h-5 w-5" />} label={t.token.supply} value="1,000,000,000" highlight />
           <InfoCard icon={<Rocket className="h-5 w-5" />} label={t.token.platform} value="flap.sh" />
           <InfoCard icon={<ShieldCheck className="h-5 w-5" />} label={t.token.chain} value="Solana" />
