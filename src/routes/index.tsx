@@ -303,7 +303,7 @@ function SectionTag({ children }: { children: React.ReactNode }) {
   );
 }
 
-const CONTRACT = "7777";
+const CONTRACT = "0xa10106732468ce401f80a91f0daa4cff4d8b7777";
 
 function TokenInfo() {
   const t = useT();
