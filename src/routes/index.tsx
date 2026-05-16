@@ -1,8 +1,19 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
-  ArrowRight, Lock, Flame, Coins, Rocket, Twitter, Send, ChevronDown,
-  Sparkles, ShieldCheck, Zap, Copy, Check,
+  ArrowRight,
+  Lock,
+  Flame,
+  Coins,
+  Rocket,
+  Twitter,
+  Send,
+  ChevronDown,
+  Sparkles,
+  ShieldCheck,
+  Zap,
+  Copy,
+  Check,
 } from "lucide-react";
 import mascot from "@/assets/flapmeme-mascot.png";
 import { Button } from "@/components/ui/button";
@@ -44,9 +55,7 @@ function Site() {
       <Roadmap />
       <Community />
       <FAQ />
-      <footer className="border-t border-border/50 py-10 text-center text-sm text-muted-foreground">
-        {t.footer}
-      </footer>
+      <footer className="border-t border-border/50 py-10 text-center text-sm text-muted-foreground">{t.footer}</footer>
     </div>
   );
 }
@@ -89,11 +98,7 @@ function Nav() {
     { href: "#faq", label: t.nav.faq },
   ];
   return (
-    <header
-      className={`fixed top-0 z-50 w-full transition-all duration-500 ${
-        scrolled ? "py-2" : "py-4"
-      }`}
-    >
+    <header className={`fixed top-0 z-50 w-full transition-all duration-500 ${scrolled ? "py-2" : "py-4"}`}>
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4">
         <a href="#top" className="flex items-center gap-2">
           <img src={mascot} alt="BabyFlap" className="h-10 w-10 drop-shadow-[0_0_15px_rgba(255,220,50,0.6)]" />
@@ -112,12 +117,7 @@ function Nav() {
         </nav>
         <div className="flex items-center gap-2">
           <LangToggle />
-          <a
-            href="https://flap.sh"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden md:inline-flex"
-          >
+          <a href="https://flap.sh" target="_blank" rel="noreferrer" className="hidden md:inline-flex">
             <Button className="rounded-full bg-gradient-flap font-bold text-primary-foreground hover:opacity-90">
               {t.cta.buy} <ArrowRight className="ml-1 h-4 w-4" />
             </Button>
@@ -159,12 +159,13 @@ function Hero() {
           <br />
           <span className="text-foreground">{t.hero.title2}</span>
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">
-          {t.hero.subtitle}
-        </p>
+        <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">{t.hero.subtitle}</p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a href="https://flap.sh" target="_blank" rel="noreferrer">
-            <Button size="lg" className="h-12 rounded-full bg-gradient-flap px-7 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_rgba(255,220,50,0.7)] hover:opacity-95">
+            <Button
+              size="lg"
+              className="h-12 rounded-full bg-gradient-flap px-7 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_rgba(255,220,50,0.7)] hover:opacity-95"
+            >
               <Rocket className="mr-2 h-4 w-4" /> {t.cta.buy}
             </Button>
           </a>
@@ -208,16 +209,33 @@ function HeroStats() {
   const supply = useCounter(1_000_000_000);
   return (
     <div className="mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-3 md:grid-cols-3">
-      <StatCard label={t.hero.stat1} value={Math.floor(holders).toLocaleString()} icon={<Sparkles className="h-4 w-4" />} />
-      <StatCard label={t.hero.stat2} value={`${Math.floor(supply).toLocaleString()}`} icon={<Coins className="h-4 w-4" />} accent />
+      <StatCard
+        label={t.hero.stat1}
+        value={Math.floor(holders).toLocaleString()}
+        icon={<Sparkles className="h-4 w-4" />}
+      />
+      <StatCard
+        label={t.hero.stat2}
+        value={`${Math.floor(supply).toLocaleString()}`}
+        icon={<Coins className="h-4 w-4" />}
+        accent
+      />
       <StatCard label={t.hero.stat3} value="flap.sh" icon={<Rocket className="h-4 w-4" />} />
     </div>
   );
 }
 
 function StatCard({
-  label, value, icon, accent,
-}: { label: string; value: string; icon: React.ReactNode; accent?: boolean }) {
+  label,
+  value,
+  icon,
+  accent,
+}: {
+  label: string;
+  value: string;
+  icon: React.ReactNode;
+  accent?: boolean;
+}) {
   return (
     <div className={`glass rounded-2xl p-5 text-left ${accent ? "glow-sun" : ""}`}>
       <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-muted-foreground">
@@ -251,7 +269,14 @@ function About() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-4 md:grid-cols-2">
         <div className="relative">
           <div className="absolute -inset-10 rounded-full bg-gradient-flap opacity-20 blur-3xl" />
-          <img src={mascot} alt="" className="relative mx-auto h-80 w-80 animate-float" width={1024} height={1024} loading="lazy" />
+          <img
+            src={mascot}
+            alt=""
+            className="relative mx-auto h-80 w-80 animate-float"
+            width={1024}
+            height={1024}
+            loading="lazy"
+          />
         </div>
         <div>
           <SectionTag>{t.about.tag}</SectionTag>
@@ -278,7 +303,7 @@ function SectionTag({ children }: { children: React.ReactNode }) {
   );
 }
 
-const CONTRACT = "FLAP1xButterfly7Memecoin8FairLaunch9onFlapsh";
+const CONTRACT = "7777";
 
 function TokenInfo() {
   const t = useT();
@@ -297,9 +322,7 @@ function TokenInfo() {
         </div>
 
         <div className="mx-auto mt-8 flex max-w-2xl items-center gap-3 glass rounded-2xl p-3 pl-5">
-          <code className="flex-1 truncate text-left font-mono text-sm text-muted-foreground">
-            {CONTRACT}
-          </code>
+          <code className="flex-1 truncate text-left font-mono text-sm text-muted-foreground">{CONTRACT}</code>
           <button
             onClick={() => {
               navigator.clipboard.writeText(CONTRACT);
@@ -317,7 +340,17 @@ function TokenInfo() {
   );
 }
 
-function InfoCard({ icon, label, value, highlight }: { icon: React.ReactNode; label: string; value: string; highlight?: boolean }) {
+function InfoCard({
+  icon,
+  label,
+  value,
+  highlight,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  value: string;
+  highlight?: boolean;
+}) {
   return (
     <div className={`glass rounded-2xl p-5 text-left ${highlight ? "glow-sun" : ""}`}>
       <div className="flex items-center gap-2 text-[var(--sun)]">{icon}</div>
@@ -352,10 +385,9 @@ function useInView<T extends HTMLElement>() {
   const [seen, setSeen] = useState(false);
   useEffect(() => {
     if (!ref.current || seen) return;
-    const obs = new IntersectionObserver(
-      (entries) => entries.forEach((e) => e.isIntersecting && setSeen(true)),
-      { threshold: 0.2 },
-    );
+    const obs = new IntersectionObserver((entries) => entries.forEach((e) => e.isIntersecting && setSeen(true)), {
+      threshold: 0.2,
+    });
     obs.observe(ref.current);
     return () => obs.disconnect();
   }, [seen]);
@@ -363,10 +395,21 @@ function useInView<T extends HTMLElement>() {
 }
 
 function TokenCard({
-  item, seen, index,
-}: { item: { label: string; value: number; desc: string }; seen: boolean; index: number }) {
+  item,
+  seen,
+  index,
+}: {
+  item: { label: string; value: number; desc: string };
+  seen: boolean;
+  index: number;
+}) {
   const v = useCounter(item.value, 1400, seen);
-  const icons = [<Lock key="l" className="h-5 w-5" />, <Flame key="f" className="h-5 w-5" />, <Coins key="c" className="h-5 w-5" />, <Zap key="z" className="h-5 w-5" />];
+  const icons = [
+    <Lock key="l" className="h-5 w-5" />,
+    <Flame key="f" className="h-5 w-5" />,
+    <Coins key="c" className="h-5 w-5" />,
+    <Zap key="z" className="h-5 w-5" />,
+  ];
   return (
     <div
       className="glass group relative overflow-hidden rounded-3xl p-6 transition-transform hover:-translate-y-1"
@@ -411,7 +454,12 @@ function Roadmap() {
             >
               <div
                 className="absolute right-4 top-4 text-7xl font-black opacity-10"
-                style={{ background: "var(--gradient-flap)", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" }}
+                style={{
+                  background: "var(--gradient-flap)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
+                }}
               >
                 0{i + 1}
               </div>
@@ -448,8 +496,12 @@ function Community() {
             <p className="mx-auto mt-4 max-w-xl text-muted-foreground">{t.community.sub}</p>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a href="https://twitter.com" target="_blank" rel="noreferrer"
-                className="group glass flex items-center gap-3 rounded-2xl px-6 py-4 transition-all hover:glow-sun">
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noreferrer"
+                className="group glass flex items-center gap-3 rounded-2xl px-6 py-4 transition-all hover:glow-sun"
+              >
                 <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-sun text-primary-foreground transition-transform group-hover:scale-110">
                   <Twitter className="h-6 w-6" />
                 </span>
@@ -458,8 +510,12 @@ function Community() {
                   <span className="block font-extrabold">{t.community.tw}</span>
                 </span>
               </a>
-              <a href="https://t.me" target="_blank" rel="noreferrer"
-                className="group glass flex items-center gap-3 rounded-2xl px-6 py-4 transition-all hover:glow-sky">
+              <a
+                href="https://t.me"
+                target="_blank"
+                rel="noreferrer"
+                className="group glass flex items-center gap-3 rounded-2xl px-6 py-4 transition-all hover:glow-sky"
+              >
                 <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-sky text-secondary-foreground transition-transform group-hover:scale-110">
                   <Send className="h-6 w-6" />
                 </span>
@@ -504,7 +560,9 @@ function FAQ() {
                   className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left"
                 >
                   <span className="text-base font-bold md:text-lg">{it.q}</span>
-                  <ChevronDown className={`h-5 w-5 shrink-0 transition-transform ${isOpen ? "rotate-180 text-[var(--sun)]" : "text-muted-foreground"}`} />
+                  <ChevronDown
+                    className={`h-5 w-5 shrink-0 transition-transform ${isOpen ? "rotate-180 text-[var(--sun)]" : "text-muted-foreground"}`}
+                  />
                 </button>
                 <div
                   className="grid transition-all duration-300 ease-out"
