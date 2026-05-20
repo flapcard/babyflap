@@ -117,12 +117,7 @@ function Nav() {
         </nav>
         <div className="flex items-center gap-2">
           <LangToggle />
-          <a
-            href="https://flap.sh/bnb/0xa5e0b18351d29af802054ec1a1139b7306f17777"
-            target="_blank"
-            rel="noreferrer"
-            className="hidden md:inline-flex"
-          >
+          <a href="https://flap.sh/bnb/7777" target="_blank" rel="noreferrer" className="hidden md:inline-flex">
             <Button className="rounded-full bg-gradient-flap font-bold text-primary-foreground hover:opacity-90">
               {t.cta.buy} <ArrowRight className="ml-1 h-4 w-4" />
             </Button>
@@ -166,7 +161,7 @@ function Hero() {
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground md:text-xl">{t.hero.subtitle}</p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <a href="https://flap.sh/bnb/0xa5e0b18351d29af802054ec1a1139b7306f17777" target="_blank" rel="noreferrer">
+          <a href="https://flap.sh/bnb/7777" target="_blank" rel="noreferrer">
             <Button
               size="lg"
               className="h-12 rounded-full bg-gradient-flap px-7 text-base font-bold text-primary-foreground shadow-[0_10px_40px_-10px_rgba(255,220,50,0.7)] hover:opacity-95"
@@ -308,7 +303,7 @@ function SectionTag({ children }: { children: React.ReactNode }) {
   );
 }
 
-const CONTRACT = "0xa5e0b18351d29af802054ec1a1139b7306f17777";
+const CONTRACT = "7777";
 
 function TokenInfo() {
   const t = useT();
